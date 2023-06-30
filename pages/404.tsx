@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 
 export default function Custom404() {
@@ -5,6 +6,7 @@ export default function Custom404() {
     <>
       <Header />
       <h1>404 -INi NOT FOUND</h1>
+      <Footer />
     </>
   );
 }

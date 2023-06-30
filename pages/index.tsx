@@ -1,11 +1,14 @@
+import Footer from "@/components/footer";
 import Header from "@/components/header";
+import Mainhero from "@/components/mainhero";
 import { NextPage } from "next";
-import Home from "@/components/home";
+
 const Index: NextPage = () => {
   return (
     <>
       <Header />
-      <Home />
+      <Mainhero />
+      <Footer />
     </>
   );
 };

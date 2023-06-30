@@ -22,13 +22,13 @@ export default function Header() {
 
             <ul className={styles.menu}>
               <li>
-                <Link href="./index.html">Home</Link>
+                <Link href="/">Home</Link>
               </li>
               <li>
                 <Link href="./about">About Us</Link>
               </li>
               <li>
-                <Link href="./product">Product</Link>
+                <Link href="./service">Service</Link>
               </li>
               <li>
                 <Link href="./reference">Reference</Link>
