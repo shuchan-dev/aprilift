@@ -1,0 +1,131 @@
+.main {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section {
+  max-width: 1280px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.heroRight {
+  width: 100%;
+}
+.heroCard {
+  padding-right: 0;
+}
+.h1 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.05em;
+  color: rgb(26, 24, 24);
+}
+.h11 {
+  color: rgb(177, 8, 8);
+}
+
+.p {
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+  color: #585a5e;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+.span {
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  max-width: 100%;
+}
+.img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column; /* Mengubah susunan menjadi tumpukan vertikal */
+  }
+  .heroRight,
+  .image {
+    width: 100%; /* Menyesuaikan lebar menjadi penuh */
+  }
+}
+
+@media (min-width: 768px) {
+  .image {
+    margin-top: 0; /* Menghapus margin atas pada gambar */
+    width: 50%; /* Menjadikan lebar gambar menjadi setengah dari kontainer */
+  }
+}
+@media (min-width: 768px) {
+  .image {
+    margin-top: 0;
+    width: 50%;
+  }
+}
+
+@media (min-width: 640px) {
+  .h1 {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .heroCard {
+    padding-right: 48px;
+  }
+}
+
+@media (min-width: 768px) {
+  .heroRight {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-header {
+    padding-top: 96px;
+  }
+}

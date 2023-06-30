@@ -1,0 +1,19 @@
+.mxauto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.service {
+  flex: 1;
+  width: 100%;
+  max-width: 1280px;
+  padding: 1rem;
+  padding-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  .service {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
