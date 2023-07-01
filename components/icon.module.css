@@ -1,47 +1,18 @@
-/* social media */
-
-.socialmedia .container {
-  margin-left: 30px;
-  margin-top: -155px;
+.sosmedText {
+  color: rgb(177, 8, 8);
+}
+.sosmedText:hover {
+  color: #5295ec;
 }
 
-.socialmedia .container .h1 {
-  font-family: sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: 20px;
-  line-height: 40px;
-  color: darkslategrey;
-}
-
-.socialmedia .container .sosmedlink {
-  display: flex;
-  margin-left: 0%;
-  padding-bottom: 40px;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-.socialmedia .container .sosmedlink .sosiaLink {
-  width: 2.5em;
-  height: 2.5em;
-  margin-right: 1.25em;
-  border-radius: 9999em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rebeccapurple;
-  text-decoration: inherit;
-  border-bottom: 1px solid;
-  border-right: solid;
-}
-
-.socialmedia .container .sosmedlink .fillcurrent {
+.svg {
   fill: currentColor;
 }
 
-.socialmedia .container .sosmedlink .sosiaLink:hover {
-  color: white;
-  background-color: cadetblue;
+.sosmedContainer {
+  display: flex;
 }
-/* akhir social media */
+
+.sosmedContainer > * + * {
+  margin-left: 30px;
+}

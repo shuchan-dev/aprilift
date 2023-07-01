@@ -1,3 +1,10 @@
+.sosmed {
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+  font-weight: 500;
+  color: #222325;
+}
+
 .container {
   max-width: 90rem;
   padding-left: 1rem;
@@ -24,12 +31,17 @@
 }
 .link {
   font-weight: bold;
-  color: #6b7280;
+  color: #5d75a7;
+  text-decoration: none;
+}
+.link2 {
+  font-weight: bold;
+  color: #9da0a7;
   text-decoration: none;
 }
 .text {
   margin-bottom: 0.5rem;
-  font-size: 1.125rem;
+  font-size: 22px;
   font-weight: 500;
   color: #222325;
 }
