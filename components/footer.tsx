@@ -1,9 +1,20 @@
 import React from "react";
 import styles from "./footer.module.css";
+import Icon from "./icon";
 
 export default function Footer() {
-  const { container, consume, respo, repo, text, littleText, copyright, link } =
-    styles;
+  const {
+    container,
+    consume,
+    respo,
+    repo,
+    text,
+    littleText,
+    copyright,
+    link,
+    link2,
+    sosmed,
+  } = styles;
 
   const customStyles = {
     paddingTop: "6px",
@@ -24,18 +35,22 @@ export default function Footer() {
             </div>
             <div className={`${repo}`}></div>
             <div className={`${repo}`}>
-              <h2>Sosial media</h2>
+              <h2 className={`${sosmed}`}>Tetap terhubung dengan kami</h2>
+              <Icon />
             </div>
           </div>
         </div>
-        <p className={`${copyright}`}>&copy;2023 Aprilift Mandiri.</p>
+        <p className={`${copyright}`}>
+          &copy;2023
+          <span className={`${link}`}> Aprilift Mandiri</span>
+        </p>
         <p className={`${copyright}`}>
           {" "}
           Created by
           <a
             href="https://github.com/shuchan-dev"
             target="_blank"
-            className={`${link}`}
+            className={`${link2}`}
           >
             {" "}
             Emnoer Studio Code
