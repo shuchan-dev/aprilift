@@ -6,7 +6,7 @@ export default function Footer() {
     styles;
 
   const customStyles = {
-    paddingTop: "32px",
+    paddingTop: "6px",
     paddingBottom: "32px",
   };
   return (
