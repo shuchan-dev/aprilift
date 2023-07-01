@@ -24,7 +24,7 @@ export default function Footer() {
             </div>
             <div className={`${repo}`}></div>
             <div className={`${repo}`}>
-              <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+              <h2>Sosial media</h2>
             </div>
           </div>
         </div>
