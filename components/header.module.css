@@ -146,7 +146,7 @@
     top: 0;
     right: -300px;
     background: #af7070;
-    width: 250px;
+    width: 225px;
     height: 100%;
     padding-top: 65px;
   }
@@ -165,6 +165,45 @@
   .menu li a:hover {
     padding: 30px;
     font-size: 24px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .hamburger,
+  .toggleMenu {
+    display: block;
+  }
+  .header {
+    padding: 10px 20px;
+  }
+  .menu {
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    background: #af7070;
+    width: 150px;
+    height: 100%;
+    padding-top: 65px;
+  }
+  .menu li {
+    width: 100%;
+  }
+  .menu li a {
+    color: #e6dede;
+    transition: 0.2s all;
+    text-decoration: none;
+  }
+  .menu li a:hover {
+    transform: scale(1.08);
+  }
+  .menu li a,
+  .menu li a:hover {
+    padding: 30px;
+    font-size: 17px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
   }
 }
