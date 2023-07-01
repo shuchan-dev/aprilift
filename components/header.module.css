@@ -20,6 +20,7 @@
 
 .header {
   background: #ffffff;
+  border-top: 4px #af7070 solid;
 }
 .logo .img {
   display: block;

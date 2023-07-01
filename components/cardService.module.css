@@ -1,0 +1,55 @@
+.card {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #5381b3;
+  border-radius: 0.375rem;
+}
+.link {
+  color: #d6e22d;
+  border-bottom-width: 1px;
+  border-bottom-color: #d6e22d;
+  border-bottom-style: solid;
+}
+
+.cardStyle {
+  width: 100%;
+  padding-top: 2rem;
+}
+.judul {
+  font-size: 1.875rem;
+  font-weight: 500;
+  color: #e4e6e9;
+}
+
+.paragraf {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.125rem;
+  color: #444a50;
+}
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .images {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .cardStyle {
+    padding-top: 0;
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .card {
+    flex-direction: row;
+    padding: 2rem;
+  }
+}

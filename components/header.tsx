@@ -25,16 +25,16 @@ export default function Header() {
                 <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="./about">About Us</Link>
-              </li>
-              <li>
                 <Link href="./service">Service</Link>
               </li>
               <li>
                 <Link href="./reference">Reference</Link>
-              </li>
+              </li>{" "}
               <li>
                 <a href="./contact">Contact</a>
+              </li>
+              <li>
+                <Link href="./about">About Us</Link>
               </li>
             </ul>
           </div>
