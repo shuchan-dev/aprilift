@@ -29,12 +29,12 @@ export default function Mainhero() {
                   <span className={`${h11}`}>Aprilift</span> Mandiri
                 </h1>
                 <p className={`${p}`}>
-                  Kami adalah suatu usah yang bergerak di prosuksi elevator,
-                  seperti: Home lift, lift passenger, Hospital lift, lift barang
-                  dan dumbaiter. Selain itu, kami juga melayani jaya maintenance
-                  lift dan penjualan spare parts lift. Jika anda memerlukan
-                  produk dan jasa kami, percayakan pada kami untuk membuatnya.
-                  Terima kasih
+                  Kami adalah suatu usaha yang bergerak di bidang prosuksi
+                  elevator, seperti : Home Lift, Lift Passenger, Hospital Lift,
+                  Lift Barang dan Dumbaiter. Selain itu, kami juga melayani jasa
+                  maintenance dan penjualan spare parts lift. Jika anda
+                  memerlukan produk dan jasa tersebut, percayakan pada kami
+                  untuk membuatnya. Terima kasih.
                 </p>
               </div>
             </div>

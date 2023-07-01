@@ -6,16 +6,29 @@ function Services() {
   const { service, h1, chile } = styles;
 
   const card1 = {
-    title: "Ini judula",
-    deskripsi: "ini deskripsi",
+    title: "Home Lift",
+    deskripsi:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima ab qui pariatur eveniet at vel adipisci sit quod, modi dolore.",
   };
   const card2 = {
-    title: "Ini hjfhakhfala",
-    deskripsi: "ini lorem20ahfjwhajfafaw",
+    title: "Lift Pasenger",
+    deskripsi:
+      "iLorem ipsum, dolor sit amet consectetur adipisicing elit. Minima ab qui pariatur eveniet at vel adipisci sit quod, modi dolore.",
   };
   const card3 = {
-    title: "414342242",
-    deskripsi: "ini l5435453535ajfafaw",
+    title: "Hospital Lift",
+    deskripsi:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima ab qui pariatur eveniet at vel adipisci sit quod, modi dolore.",
+  };
+  const card4 = {
+    title: "Lift Barang",
+    deskripsi:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima ab qui pariatur eveniet at vel adipisci sit quod, modi dolore.",
+  };
+  const card5 = {
+    title: " Dumbwaiter",
+    deskripsi:
+      "iLorem ipsum, dolor sit amet consectetur adipisicing elit. Minima ab qui pariatur eveniet at vel adipisci sit quod, modi dolore.",
   };
 
   return (
@@ -26,6 +39,8 @@ function Services() {
           <CardService {...card1} />
           <CardService {...card2} />
           <CardService {...card3} />
+          <CardService {...card4} />
+          <CardService {...card5} />
         </div>
       </main>
     </>
