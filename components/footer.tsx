@@ -31,14 +31,14 @@ export default function Footer() {
         <p className={`${copyright}`}>&copy;2023 Aprilift Mandiri.</p>
         <p className={`${copyright}`}>
           {" "}
-          Created by Comnet Mitra Solusi member of
+          Created by
           <a
-            href="https://emnoer.pages.dev"
+            href="https://github.com/shuchan-dev"
             target="_blank"
             className={`${link}`}
           >
             {" "}
-            Emnoer Elevator
+            Emnoer Studio Code
           </a>
         </p>
       </footer>
