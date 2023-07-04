@@ -1,0 +1,39 @@
+.aboutContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.companyInfo {
+  display: flex;
+  align-items: center;
+}
+.companyInfo > * + * {
+  margin-left: 50px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.address {
+  width: 260px; /* You can adjust this width to your preference */
+  word-break: break-word; /* To break long lines */
+}
+
+.mapContainer {
+  flex: 1;
+  min-width: 300px; /* Minimum width for the map container */
+  height: 300px; /* Set the height of the map container */
+}
+@media (max-width: 768px) {
+  .aboutContainer {
+    max-width: 400px;
+    flex: none;
+  }
+}
