@@ -2,7 +2,7 @@ import React from "react";
 import style from "@/components/cardService.module.css";
 import Image from "next/image";
 function CardService(props: any) {
-  const { title, deskripsi, img } = props;
+  const { title, deskripsi, img, h, w } = props;
   const { card, cardStyle, judul, paragraf, images, link } = style;
   return (
     <>
@@ -19,7 +19,7 @@ function CardService(props: any) {
           </a>
         </div>
         <div className={`${images}`}>
-          <Image src={img} alt="imagas" width={400} height={250} />
+          <Image src={img} alt="imagas" width={h} height={w} />
         </div>
       </div>
     </>

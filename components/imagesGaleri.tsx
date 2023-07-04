@@ -5,7 +5,7 @@ import Image from "next/image";
 function ImagesGaleri() {
   const images = [
     {
-      src: "/image1.jpeg",
+      src: "/barang.jpg",
       alt: "Portrait by Jessica Felicio",
       caption: "Project Home LIft",
       width: 300,
@@ -19,21 +19,21 @@ function ImagesGaleri() {
       height: 300,
     },
     {
-      src: "/image1.jpeg",
+      src: "/dumbwaiter.jpg",
       alt: "Portrait by Jessica Felicio",
       caption: "Portrait by Jessica Felicio",
       width: 300,
       height: 300,
     },
     {
-      src: "/image1.jpeg",
+      src: "/maintane.jpg",
       alt: "Portrait by Jessica Felicio",
       caption: "Portrait by Jessica Felicio",
       width: 300,
       height: 300,
     },
     {
-      src: "/image1.jpeg",
+      src: "/sapreap.jpg",
       alt: "Portrait by Jessica Felicio",
       caption: "Portrait by Jessica Felicio",
       width: 300,
