@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./mainhero.module.css";
 import Image from "next/image";
-import images from "@/public/image1.jpeg";
+import images from "@/public/home.png";
 
 export default function Mainhero() {
   const {
@@ -46,7 +46,7 @@ export default function Mainhero() {
                   className={`${img}`}
                   src={images}
                   alt="Aprilift"
-                  width={382}
+                  width={302}
                 />
               </span>
             </div>

@@ -28,14 +28,15 @@ export default function Footer() {
             <div className={`${respo}`}>
               <h1 className={`${text}`}>Aprilift Mandiri</h1>
               <p className={`${littleText}`}>
-                Jl.Bangun Nusa No.41 Rt.009 Rw.003, Cengkareng Timur, <br />
-                JakartaBarat
+                Jl. Bangun Nusa No. 41 Rt. 009 / Rw. 003, Cengkareng Timur,{" "}
+                <br />
+                Jakarta Barat
               </p>
-              <p className={`${littleText}`}>Hp.0877 7272 3027</p>
+              <p className={`${littleText}`}>+62 877-7272-3027</p>
             </div>
             <div className={`${repo}`}></div>
             <div className={`${repo}`}>
-              <h2 className={`${sosmed}`}>Tetap terhubung dengan kami</h2>
+              <h2 className={`${sosmed}`}>Sosial Media</h2>
               <Icon />
             </div>
           </div>

@@ -1,13 +1,15 @@
 import React from "react";
 import style from "@/components/cardService.module.css";
+import Image from "next/image";
 function CardService(props: any) {
+  const { title, deskripsi, img } = props;
   const { card, cardStyle, judul, paragraf, images, link } = style;
   return (
     <>
       <div className={`${card}`}>
         <div className={`${cardStyle}`}>
-          <h1 className={`${judul}`}>{props.title}</h1>
-          <p className={`${paragraf}`}>{props.deskripsi}</p>
+          <h1 className={`${judul}`}>{title}</h1>
+          <p className={`${paragraf}`}>{deskripsi}</p>
           <a
             className={`${link}`}
             href="https://www.whatsapp.com"
@@ -17,7 +19,7 @@ function CardService(props: any) {
           </a>
         </div>
         <div className={`${images}`}>
-          <h2>For Image</h2>
+          <Image src={img} alt="imagas" width={400} height={250} />
         </div>
       </div>
     </>

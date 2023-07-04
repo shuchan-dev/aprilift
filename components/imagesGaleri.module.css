@@ -1,0 +1,64 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.link {
+  margin-bottom: 20px; /* Tambahkan margin-bottom untuk memberikan jarak vertikal */
+  text-decoration: none;
+  color: inherit;
+}
+
+.thumb {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+  padding-right: 10px;
+  padding-left: 10px;
+  filter: grayscale(0);
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 25px 15px 15px;
+  width: 100%;
+  font-size: 16px;
+  color: rgb(252, 253, 255);
+  opacity: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(20, 20, 20, 0.5) 0%,
+    rgba(26, 24, 24, 0) 100%
+  );
+  transition: 0.3s;
+}
+
+.link:hover .image {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+
+.link:hover .caption {
+  opacity: 1;
+}
+
+.gallery__column {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  /* Ubah tata letak menjadi dua kolom saat layar berukuran 768px atau lebih kecil */
+  .gallery__column {
+    width: 50%;
+  }
+}
