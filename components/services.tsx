@@ -13,6 +13,7 @@ function Services() {
       img: "/homeLift.jpg",
       h: 300,
       w: 300,
+      links: "/post1",
     },
     {
       title: "Lift Passanger",
@@ -21,6 +22,7 @@ function Services() {
       img: "/pasanger.jpg",
       h: 300,
       w: 300,
+      links: "/post2",
     },
     {
       title: "Hospital Lift",
@@ -29,6 +31,7 @@ function Services() {
       img: "/image1.jpeg",
       h: 300,
       w: 300,
+      links: "/post3",
     },
     {
       title: "Lift Barang",
@@ -37,6 +40,7 @@ function Services() {
       img: "/barang.jpg",
       h: 300,
       w: 300,
+      links: "/post4",
     },
     {
       title: "Dumbwaiter",
@@ -45,6 +49,7 @@ function Services() {
       img: "/dumbwaiter.jpg",
       h: 300,
       w: 300,
+      links: "/post5",
     },
     {
       title: "Maintanence",
@@ -53,6 +58,7 @@ function Services() {
       img: "/maintane.jpg",
       h: 300,
       w: 300,
+      links: "/post6",
     },
     {
       title: "Spare Parts",
@@ -61,6 +67,7 @@ function Services() {
       img: "/sapreap.jpg",
       h: 300,
       w: 300,
+      links: "/post7",
     },
   ];
 

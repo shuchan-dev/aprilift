@@ -19,12 +19,12 @@
 }
 
 .header {
-  background: #ffffff;
-  border-top: 4px #af7070 solid;
+  background: #a8dadc;
+  border-top: 4px #e63946 solid;
 }
 .logo .img {
   display: block;
-  width: 100px;
+  width: 70px;
   height: 50px;
 }
 .navigation {
@@ -47,7 +47,7 @@
 }
 
 .menu li a {
-  color: #363434;
+  color: #891e26;
   text-decoration: none;
   display: block;
   padding: 40px 25px;
@@ -57,8 +57,8 @@
 }
 
 .menu li a:hover {
-  box-shadow: 0 -5px 0px #363434 inset,
-    500px 0 0 rgba(255, 255, 255, 0.03) inset;
+  box-shadow: 0 -5px 0px #fa2424 inset,
+    100px 0 0 rgba(255, 255, 255, 0.03) inset;
   padding: 35px 25px 45px 25px;
 }
 
@@ -145,7 +145,7 @@
     position: fixed;
     top: 0;
     right: -300px;
-    background: #af7070;
+    background: #a8dadc;
     width: 225px;
     height: 100%;
     padding-top: 65px;
@@ -154,7 +154,7 @@
     width: 100%;
   }
   .menu li a {
-    color: #e6dede;
+    color: #891e26;
     transition: 0.2s all;
     text-decoration: none;
   }
@@ -184,7 +184,7 @@
     position: fixed;
     top: 0;
     right: -300px;
-    background: #af7070;
+
     width: 150px;
     height: 100%;
     padding-top: 65px;
@@ -193,7 +193,6 @@
     width: 100%;
   }
   .menu li a {
-    color: #e6dede;
     transition: 0.2s all;
     text-decoration: none;
   }
