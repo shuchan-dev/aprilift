@@ -30,16 +30,16 @@
   font-weight: 800;
   line-height: 1.25;
   letter-spacing: -0.05em;
-  color: rgb(26, 24, 24);
+  color: #e63946;
 }
 .h11 {
-  color: rgb(177, 8, 8);
+  color: #a8dadc;
 }
 
 .p {
   margin-top: 1.5rem;
   font-size: 1.125rem;
-  color: #585a5e;
+  color: #f1faee;
 }
 
 .image {

@@ -1,8 +1,9 @@
 import React from "react";
 import style from "@/components/cardService.module.css";
 import Image from "next/image";
+import Link from "next/link";
 function CardService(props: any) {
-  const { title, deskripsi, img, h, w } = props;
+  const { title, deskripsi, img, h, w, links } = props;
   const { card, cardStyle, judul, paragraf, images, link } = style;
   return (
     <>
@@ -10,13 +11,10 @@ function CardService(props: any) {
         <div className={`${cardStyle}`}>
           <h1 className={`${judul}`}>{title}</h1>
           <p className={`${paragraf}`}>{deskripsi}</p>
-          <a
-            className={`${link}`}
-            href="https://www.whatsapp.com"
-            target="_blank"
-          >
-            lebih lanjut
-          </a>
+
+          <Link className={`${link}`} href={`${links}`}>
+            Lihat lebih lanjut
+          </Link>
         </div>
         <div className={`${images}`}>
           <Image src={img} alt="imagas" width={h} height={w} />
