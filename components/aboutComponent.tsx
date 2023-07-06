@@ -9,21 +9,23 @@ export default function AboutComponent() {
           <div className={styles.contactInfo}>
             <h1>Aprilift Mandiri</h1>
             <p>
-              Kami adalah suatu usaha yang bergerak di bidang prosuksi elevator,
-              seperti : Home Lift, Lift Passenger, Hospital Lift, Lift Barang
-              dan Dumbaiter. Selain itu, kami juga melayani jasa maintenance dan
-              penjualan spare parts lift. Jika anda memerlukan produk dan jasa
-              tersebut, percayakan pada kami untuk membuatnya.
+              Aprilift mandiri berdiri pada tanggal 23 Maret 2012. Kami adalah
+              suatu usaha yang bergerak di bidang prosuksi elevator, seperti :
+              Dumbwaiter (Lift Makanan), Lift Barang (Cargo), dan Lift Passenger
+              . Selain itu, kami juga melayani jasa maintenance dan penjualan
+              spare parts lift. Jika anda memerlukan produk dan jasa tersebut,
+              percayakan pada kami untuk membuatnya.
             </p>
             <p>
               Kami bangga dengan reputasi kami dalam memberikan produk dan
               layanan lift yang berkualitas tinggi. Tim kami yang berdedikasi
               siap membantu Anda dalam memenuhi kebutuhan lift Anda, baik untuk
-              rumah tinggal, bangunan komersial, maupun lingkungan rumah sakit.
+              Restoran, Pabrik, Mall, Hotel, Rumah Tinggal, Bangunan Komersial,
+              maupun lingkungan Rumah Sakit.
               <p>
                 {" "}
-                Jika Anda memerlukan Home Lift, Lift Passenger, Hospital Lift,
-                Lift Barang, Dumbwaiter, jasa maintenance, atau penjualan spare
+                Jika Anda memerlukan Dumbwaiter (Lift Makanan), Lift Barang
+                (Cargo), Lift Passenger, Jasa Maintenance, dan penjualan spare
                 parts lift, percayakan pada Aprilift Mandiri untuk memenuhinya.
                 Hubungi kami sekarang juga untuk konsultasi lebih lanjut dan
                 penawaran yang sesuai dengan kebutuhan Anda.{" "}
