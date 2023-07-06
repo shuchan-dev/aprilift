@@ -31,9 +31,9 @@ export default function Mainhero() {
                 <p className={`${p}`}>
                   Kami adalah suatu usaha yang bergerak di bidang prosuksi
                   elevator, seperti : Dumbwaiter (Lift Makanan), Lift Barang
-                  (Cargo), dan Lift Passenger . Selain itu, kami juga melayani
-                  jasa maintenance dan penjualan spare parts lift. Jika anda
-                  memerlukan produk dan jasa tersebut, percayakan pada kami
+                  (Lift Cargo), dan Lift Passenger . Selain itu, kami juga
+                  melayani jasa maintenance dan penjualan spare parts lift. Jika
+                  anda memerlukan produk dan jasa tersebut, percayakan pada kami
                   untuk membuatnya.
                 </p>
               </div>

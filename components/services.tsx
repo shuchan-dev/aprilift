@@ -7,13 +7,22 @@ function Services() {
 
   const cards = [
     {
-      title: "Home Lift",
+      title: "Dumbwaiter (Lift Makanan)",
       deskripsi:
-        "Home Lift kami dirancang khusus untuk kebutuhan perumahan. Dengan Home Lift kami, Anda dapat menikmati aksesibilitas vertikal yang nyaman dan aman di dalam rumah Anda. Desainnya yang elegan dan teknologi canggih menjadikan Home Lift kami solusi yang sempurna untuk meningkatkan nilai dan kenyamanan hunian Anda.",
-      img: "/homeLift.jpg",
+        "Dumbwaiter adalah lift kecil yang digunakan untuk mengangkut barang dalam skala rumah tangga atau restoran. Kami menyediakan Dumbwaiter dengan teknologi terkini dan desain yang dapat diandalkan. Dumbwaiter kami memudahkan pengangkutan barang dengan efisiensi dan keamanan, membantu meningkatkan produktivitas dan kenyamanan di rumah atau restoran Anda.",
+      img: "/dumbwaiter.jpg",
       h: 300,
       w: 300,
-      links: "/post1",
+      links: "/post5",
+    },
+    {
+      title: "Lift Barang (Lift Cargo)",
+      deskripsi:
+        "Lift Barang kami dirancang untuk mempermudah transportasi barang dalam berbagai jenis industri. Kami menawarkan Lift Barang dengan kapasitas yang sesuai dengan kebutuhan Anda. Desainnya dapat disesuaikan agar sesuai dengan kebutuhan dan lingkungan operasional. Lift Barang kami dapat membantu meningkatkan efisiensi operasional dan mengoptimalkan proses logistik.",
+      img: "/barang.jpg",
+      h: 300,
+      w: 300,
+      links: "/post4",
     },
     {
       title: "Lift Passanger",
@@ -25,6 +34,16 @@ function Services() {
       links: "/post2",
     },
     {
+      title: "Home Lift",
+      deskripsi:
+        "Home Lift kami dirancang khusus untuk kebutuhan perumahan. Dengan Home Lift kami, Anda dapat menikmati aksesibilitas vertikal yang nyaman dan aman di dalam rumah Anda. Desainnya yang elegan dan teknologi canggih menjadikan Home Lift kami solusi yang sempurna untuk meningkatkan nilai dan kenyamanan hunian Anda.",
+      img: "/homeLift.jpg",
+      h: 300,
+      w: 300,
+      links: "/post1",
+    },
+
+    {
       title: "Hospital Lift",
       deskripsi:
         "Hospital Lift kami memenuhi standar keamanan dan kenyamanan yang khusus untuk lingkungan rumah sakit. Dirancang dengan cermat, Hospital Lift kami dapat mengakomodasi transportasi pasien, perawat, dan peralatan medis dengan efisiensi dan kehandalan tinggi. Keandalan Hospital Lift kami menjadi faktor penting dalam mendukung operasional rumah sakit. ",
@@ -33,24 +52,7 @@ function Services() {
       w: 300,
       links: "/post3",
     },
-    {
-      title: "Lift Barang",
-      deskripsi:
-        "Lift Barang kami dirancang untuk mempermudah transportasi barang dalam berbagai jenis industri. Kami menawarkan Lift Barang dengan kapasitas yang sesuai dengan kebutuhan Anda. Desainnya dapat disesuaikan agar sesuai dengan kebutuhan dan lingkungan operasional. Lift Barang kami dapat membantu meningkatkan efisiensi operasional dan mengoptimalkan proses logistik.",
-      img: "/barang.jpg",
-      h: 300,
-      w: 300,
-      links: "/post4",
-    },
-    {
-      title: "Dumbwaiter",
-      deskripsi:
-        "Dumbwaiter adalahlift kecil yang digunakan untuk mengangkut barang dalam skala rumah tangga atau restoran. Kami menyediakan Dumbwaiter dengan teknologi terkini dan desain yang dapat diandalkan. Dumbwaiter kami memudahkan pengangkutan barang dengan efisiensi dan keamanan, membantu meningkatkan produktivitas dan kenyamanan di rumah atau restoran Anda.",
-      img: "/dumbwaiter.jpg",
-      h: 300,
-      w: 300,
-      links: "/post5",
-    },
+
     {
       title: "Jasa Maintenance dan Penjualan Spare Parts Lift",
       deskripsi:
