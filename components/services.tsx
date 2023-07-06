@@ -9,7 +9,7 @@ function Services() {
     {
       title: "Home Lift",
       deskripsi:
-        "Lantai lift perumahan seri produk kami didedikasikan untuk penggunaan perumahan dan pengembangan desain. Lift menggunakan teknologi canggih untuk menghasilkan tipe baru komputerisasi, kontrol digital dari lift vvvf. Integrasi sistem jaringan data, dan arsitektur modular, memungkinkan sistem untuk mengontrol penggunaan prosedur inspeksi diri yang lebih tepat, efisien, fleksibel, masuk akal, dan paling",
+        "Home Lift kami dirancang khusus untuk kebutuhan perumahan. Dengan Home Lift kami, Anda dapat menikmati aksesibilitas vertikal yang nyaman dan aman di dalam rumah Anda. Desainnya yang elegan dan teknologi canggih menjadikan Home Lift kami solusi yang sempurna untuk meningkatkan nilai dan kenyamanan hunian Anda.",
       img: "/homeLift.jpg",
       h: 300,
       w: 300,
@@ -18,7 +18,7 @@ function Services() {
     {
       title: "Lift Passanger",
       deskripsi:
-        "Lift penumpang mengadopsi beberapa metode yang digerakkan oleh traksi dan dilengkapi dengan beberapa perangkat keselamatan dan perlindungan untuk memastikan pengoperasian yang aman, lift penumpang mengadopsi teknologi VVVF",
+        "Lift Passenger kami dapat digunakan dalam berbagai jenis bangunan dan dirancang untuk memenuhi kebutuhan transportasi vertikal. Kami menawarkan Lift Passenger dengan kapasitas yang bervariasi dan fitur keselamatan yang canggih. Dengan Lift Passenger kami, pengguna dapat merasakan perjalanan yang aman dan nyaman.",
       img: "/pasanger.jpg",
       h: 300,
       w: 300,
@@ -27,7 +27,7 @@ function Services() {
     {
       title: "Hospital Lift",
       deskripsi:
-        "Lift untuk tujuan medis adalah transportasi vertikal. Peralatan yang digunakan di rumah sakit dan lainnya yang relevan. Tempat untuk memindahkan pasien dan instrumen bedah. Lift untuk keperluan medis, dengan keunikan",
+        "Hospital Lift kami memenuhi standar keamanan dan kenyamanan yang khusus untuk lingkungan rumah sakit. Dirancang dengan cermat, Hospital Lift kami dapat mengakomodasi transportasi pasien, perawat, dan peralatan medis dengan efisiensi dan kehandalan tinggi. Keandalan Hospital Lift kami menjadi faktor penting dalam mendukung operasional rumah sakit. ",
       img: "/image1.jpeg",
       h: 300,
       w: 300,
@@ -36,7 +36,7 @@ function Services() {
     {
       title: "Lift Barang",
       deskripsi:
-        "Alat pengangkut barang yang berukuran lebih besar dari dumbwaiter, yaitu di atas 300 Kg. Lift ini biasanya sering dijumpai di pabrik, lantai pertokoan, restoran, hotel, mall",
+        "Lift Barang kami dirancang untuk mempermudah transportasi barang dalam berbagai jenis industri. Kami menawarkan Lift Barang dengan kapasitas yang sesuai dengan kebutuhan Anda. Desainnya dapat disesuaikan agar sesuai dengan kebutuhan dan lingkungan operasional. Lift Barang kami dapat membantu meningkatkan efisiensi operasional dan mengoptimalkan proses logistik.",
       img: "/barang.jpg",
       h: 300,
       w: 300,
@@ -45,29 +45,20 @@ function Services() {
     {
       title: "Dumbwaiter",
       deskripsi:
-        "Dumbwaiter adalah alat pengangkut barang berukuran kecil antara 50 Kg hingga 250 Kg. Biasanya sering dijumpai di hotel, rumah sakit dan lain-lain. Cara menggunakan dumbwaiter sangat mudah dan dapat",
+        "Dumbwaiter adalahlift kecil yang digunakan untuk mengangkut barang dalam skala rumah tangga atau restoran. Kami menyediakan Dumbwaiter dengan teknologi terkini dan desain yang dapat diandalkan. Dumbwaiter kami memudahkan pengangkutan barang dengan efisiensi dan keamanan, membantu meningkatkan produktivitas dan kenyamanan di rumah atau restoran Anda.",
       img: "/dumbwaiter.jpg",
       h: 300,
       w: 300,
       links: "/post5",
     },
     {
-      title: "Maintanence",
+      title: "Jasa Maintenance dan Penjualan Spare Parts Lift",
       deskripsi:
-        "pentingnya maintenance lift yang teratur untuk memastikan keandalan, keselamatan, dan kinerja optimal dari lift. Aprilift Mandiri, sebagai penyedia layanan lift terkemuka, memberikan panduan praktis untuk perawatan lift yang efektif.",
+        "Kami adalah penyedia jasa maintenance lift yang terpercaya, dengan tim yang berpengalaman dalam melakukan pemeriksaan rutin, perawatan, dan perbaikan untuk menjaga kinerja lift Anda tetap optimal dan aman digunakan. Kami berkomitmen untuk memberikan layanan maintenance yang cepat, responsif, dan berkualitas tinggi. Selain itu, kami juga menyediakan spare parts lift asli berkualitas tinggi yang kompatibel dengan berbagai merek dan model lift. Dengan menggunakan spare parts asli, Anda dapat memastikan bahwa lift Anda akan diperbaiki dengan suku cadang yang tepat, sehingga memperpanjang umur operasional lift Anda. Keberadaan kami memudahkan Anda untuk mendapatkan suku cadang yang dibutuhkan dengan mudah.",
       img: "/maintane.jpg",
       h: 300,
       w: 300,
       links: "/post6",
-    },
-    {
-      title: "Spare Parts",
-      deskripsi:
-        "Kami menyediakan dan menjual suku cadang untuk elevator dan escalator, seperti elevator dan escalator.",
-      img: "/sapreap.jpg",
-      h: 300,
-      w: 300,
-      links: "/post7",
     },
   ];
 

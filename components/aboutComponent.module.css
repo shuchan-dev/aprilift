@@ -1,39 +1,47 @@
-.aboutContainer {
+/* Contact Container */
+
+.contactContainer {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
+  gap: 1rem;
+  max-width: 1200px;
+  margin-top: auto;
+  margin-left: auto;
 }
 
-.companyInfo {
+/* Contact Info */
+.contactInfo {
+  flex: 1 1 20rem;
+}
+
+.contactInfo h1 {
+  font-size: 1.7rem;
+  color: #f1faee;
+}
+
+.contactInfo p {
+  margin: 0.5rem 0 1rem;
+  font-size: 17px;
+}
+
+/* Address */
+.svg {
+  fill: currentColor;
+  color: #fc7f85;
+}
+.address div {
+  font-size: 1rem;
+  margin-left: 0rem;
   display: flex;
-  align-items: center;
 }
-.companyInfo > * + * {
-  margin-left: 50px;
+.link {
+  text-decoration: none;
+  color: #f1faee;
 }
-
-.icon {
-  width: 24px;
-  height: 24px;
-  margin-right: 8px;
+.link:hover {
+  color: #fc7f85;
 }
-
-.address {
-  width: 260px; /* You can adjust this width to your preference */
-  word-break: break-word; /* To break long lines */
-}
-
-.mapContainer {
-  flex: 1;
-  min-width: 300px; /* Minimum width for the map container */
-  height: 300px; /* Set the height of the map container */
-}
-@media (max-width: 768px) {
-  .aboutContainer {
-    max-width: 400px;
-    flex: none;
-  }
+.address p {
+  margin-left: 15px;
+  margin-top: 5px;
+  color: #f1faee;
 }
