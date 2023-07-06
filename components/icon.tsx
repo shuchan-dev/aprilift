@@ -15,8 +15,8 @@ function Whatsapp() {
         <svg
           className={`${svg}`}
           role="img"
-          width={26}
           viewBox="0 0 24 24"
+          width={26}
           xmlns="http://www.w3.org/2000/svg"
         >
           <title>WhatsApp</title>
