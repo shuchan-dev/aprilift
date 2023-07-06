@@ -9,7 +9,8 @@ function Whatsapp() {
       <a
         className={`${sosmedText}`}
         target="_blank"
-        href="https://www.whatsapp.com"
+        href="https://wa.me/message/6ZUFW4VRZ7YYP1"
+        rel="noreferrer"
       >
         <svg
           className={`${svg}`}
@@ -33,7 +34,8 @@ function Instagram() {
       <a
         className={`${sosmedText}`}
         target="_blank"
-        href="https://www.whatsapp.com"
+        href="https://www.instagram.com/iyanzanest"
+        rel="noreferrer"
       >
         <svg
           className={`${svg}`}
@@ -57,7 +59,8 @@ function Facebook() {
       <a
         className={`${sosmedText}`}
         target="_blank"
-        href="https://www.whatsapp.com"
+        href="https://www.facebook.com/iyan.zanest"
+        rel="noreferrer"
       >
         <svg
           className={`${svg}`}
@@ -80,7 +83,8 @@ function Mail() {
       <a
         className={`${sosmedText}`}
         target="_blank"
-        href="https://www.whatsapp.com"
+        href="mailto:znsaprilif@gmail.com"
+        rel="noreferrer"
       >
         <svg
           className={`${svg}`}

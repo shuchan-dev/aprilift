@@ -18,6 +18,14 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "components/MDXLayout.jsx",
+    "**/*.js",
+    "**/*.jsx",
+    "components/MDXLayout.jsx"
+  ],
   "exclude": ["node_modules"]
 }

@@ -4,66 +4,31 @@ import matter from "gray-matter";
 import { serialize } from "next-mdx-remote/serialize";
 import { MDXRemote } from "next-mdx-remote";
 import Head from "next/head";
+import MDXLayout from "@/components/MDXLayout";
+import styles from "@/styles/styles.module.css";
 
-import styles from "../styles/styles.module.css";
-import Header from "@/components/header";
-import Image from "next/image";
-import Footer from "@/components/footer";
+interface PostProps {
+  source: any;
+  frontMatter: {
+    title: string;
+    description: string;
+  };
+}
 
-// Define the type for MDX source data
-type MDXSource = {
-  compiledSource: string;
-  renderedOutput: string;
-  scope: Record<string, unknown>;
-};
-
-// Define the type for params in getStaticProps
-type Params = {
-  slug: string;
-};
-
-export default function BlogPost({
-  source,
-  frontMatter,
-}: {
-  source: MDXSource;
-  frontMatter: any;
-}) {
+export default function Post({ source, frontMatter }: PostProps) {
   return (
-    <div>
+    <>
       <Head>
         <title>{frontMatter.title}</title>
         <meta name="description" content={frontMatter.description} />
-        {/* You can add more meta tags here if needed */}
       </Head>
-      <Header />
-      <div className={styles.container}>
+      <MDXLayout>
         <h1 className={styles.title}>{frontMatter.title}</h1>
-        <MDXRemote {...source} components={MDXComponents} />
-      </div>
-      <Footer />
-    </div>
+        <MDXRemote {...source} />
+      </MDXLayout>
+    </>
   );
 }
-const MDXComponents = {
-  p: ({ children }: React.PropsWithChildren<{}>) => (
-    <p className={styles.paragraph}>{children}</p>
-  ),
-  a: ({ href, children }: React.PropsWithChildren<{ href: string }>) => (
-    <a href={href} className={styles.link}>
-      {children}
-    </a>
-  ),
-  img: ({ src, alt }: { src: string; alt: string }) => (
-    <Image
-      src={src}
-      alt={alt}
-      className={styles.image}
-      width={300}
-      height={300}
-    />
-  ),
-};
 
 export async function getStaticPaths() {
   const postsDirectory = path.join(process.cwd(), "content");
@@ -81,7 +46,7 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({ params }: { params: Params }) {
+export async function getStaticProps({ params }: any) {
   const postFilePath = path.join(process.cwd(), "content", `${params.slug}.md`);
   const source = fs.readFileSync(postFilePath, "utf-8");
 
