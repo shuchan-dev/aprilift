@@ -43,6 +43,11 @@ export default function Header() {
                   Tentang Kami
                 </Link>
               </li>
+              <li>
+                <Link href="./order" passHref>
+                  Order
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
