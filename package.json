@@ -22,7 +22,7 @@
     "@types/node": "20.3.2",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
-    "eslint": "8.43.0",
+    "eslint": "^7.32.0",
     "eslint-config-next": "^12.0.4",
     "framer-motion": "^9.1.7",
     "gray-matter": "^4.0.3",
@@ -40,6 +40,6 @@
     "@tanstack/react-query-devtools": "^4.29.19",
     "eslint-config-prettier": "^8.8.0",
     "prettier": "^2.8.8",
-    "vercel": "^28.17.0"
+    "vercel": "^24.2.4"
   }
 }
