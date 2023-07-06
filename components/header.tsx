@@ -12,7 +12,7 @@ export default function Header() {
         <div className={`${maxscreenxl} , ${mxauto}`}>
           {/* <!-- logo --> */}
           <div className={styles.logo}>
-            <Link href="/">
+            <Link href="/" passHref>
               <Image src={logos} alt="Logo" className={styles.img} />
             </Link>
           </div>
@@ -24,16 +24,24 @@ export default function Header() {
 
             <ul className={styles.menu}>
               <li>
-                <Link href="/">Home</Link>
+                <Link href="/" passHref>
+                  Home
+                </Link>
               </li>
               <li>
-                <Link href="./service">Layanan</Link>
+                <Link href="./service" passHref>
+                  Layanan
+                </Link>
               </li>
               <li>
-                <Link href="./galeri">Galeri</Link>
+                <Link href="./galeri" passHref>
+                  Galeri
+                </Link>
               </li>
               <li>
-                <Link href="./about">Tentang Kami</Link>
+                <Link href="./about" passHref>
+                  Tentang Kami
+                </Link>
               </li>
             </ul>
           </div>

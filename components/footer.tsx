@@ -52,6 +52,7 @@ export default function Footer() {
             href="https://github.com/shuchan-dev"
             target="_blank"
             className={`${link2}`}
+            rel="noreferrer"
           >
             {" "}
             Emnoer Studio Code
