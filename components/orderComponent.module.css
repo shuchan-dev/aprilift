@@ -1,0 +1,100 @@
+.order .container .deskripsi4 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #e63946;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.order .container .kolom h6 {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgb(238, 243, 243);
+  width: 100%;
+  line-height: 45px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+/* form-order */
+.form-order .container form .order-fill .input-order {
+  position: relative;
+  width: 80%;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.form-order .container form .order-fill .input-order input {
+  height: 50px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-size: 18px;
+  border: 2px solid #a8dadc;
+  border-radius: 10px;
+}
+
+.form-order .container form .order-fill .input-order span {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  padding: 0px;
+  text-transform: capitalize;
+  color: #8b8686;
+  transition: 0.5s;
+}
+.sendi {
+  text-align: center;
+}
+.form-order .container form .order-fill .input-order input:focus ~ span,
+.form-order .container form .order-fill .input-order input:valid ~ span {
+  top: -12px;
+  left: 20px;
+  font-size: 12px;
+  color: #f1faee;
+  background-color: #1d3557;
+  padding: 2px 4px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.form-order .container form .order-fill .input-order input[type="submit"] {
+  background-color: #e63946;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  width: 50%;
+  transition: 0.5;
+  font-size: 12px;
+  padding: 2px 5px;
+  color: #fff;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  font-family: cursive;
+}
+
+.form-order
+  .container
+  form
+  .order-fill
+  .input-order
+  input[type="submit"]:hover {
+  width: 100%;
+  background-color: steelblue;
+  transition: 0.5s;
+  color: gold;
+}
+
+/* setting form */
+.form-order .container form .order-fill {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* akhir elemen order */
