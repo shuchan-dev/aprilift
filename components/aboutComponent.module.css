@@ -45,3 +45,42 @@
   margin-top: 5px;
   color: #f1faee;
 }
+
+@media (max-width: 768px) {
+  .contactContainer {
+    max-width: 800px;
+  }
+  .svg {
+    fill: currentColor;
+    color: #fc7f85;
+  }
+
+  .prag {
+    font-size: 17px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .svg {
+    fill: currentColor;
+    color: #fc7f85;
+  }
+  .svgg {
+    width: 40px;
+  }
+  .prag {
+    font-size: 15px !important;
+  }
+}
+@media (max-width: 375px) {
+  .svg {
+    fill: currentColor;
+    color: #fc7f85;
+  }
+  .svgg {
+    width: 60px;
+  }
+  .prag {
+    font-size: 14px !important;
+  }
+}

@@ -5,7 +5,6 @@ import { serialize } from "next-mdx-remote/serialize";
 import { MDXRemote } from "next-mdx-remote";
 import Head from "next/head";
 import MDXLayout from "@/components/MDXLayout";
-import styles from "@/styles/styles.module.css";
 
 interface PostProps {
   source: any;
@@ -23,7 +22,6 @@ export default function Post({ source, frontMatter }: PostProps) {
         <meta name="description" content={frontMatter.description} />
       </Head>
       <MDXLayout>
-        <h1 className={styles.title}>{frontMatter.title}</h1>
         <MDXRemote {...source} />
       </MDXLayout>
     </>
