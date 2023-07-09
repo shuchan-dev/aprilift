@@ -13,11 +13,6 @@ type EmailFormState = {
 };
 
 class OrderComponent extends React.Component<EmailFormProps, EmailFormState> {
-  componentDidMount() {
-    console.log("EMAILJS_SERVICE_ID:", process.env.EMAILJS_SERVICE_ID);
-    console.log("EMAILJS_TEMPLATE_ID:", process.env.EMAILJS_TEMPLATE_ID);
-    console.log("EMAILJS_USER_ID:", process.env.EMAILJS_USER_ID);
-  }
   constructor(props: EmailFormProps) {
     super(props);
 
