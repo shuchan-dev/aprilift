@@ -1,4 +1,10 @@
-.order .container .deskripsi4 {
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+.deskripsi4 {
   font-size: 25px;
   font-weight: bold;
   font-family: sans-serif;
@@ -7,19 +13,19 @@
   text-align: center;
 }
 
-.order .container .kolom h6 {
+.kolom h6 {
   font-family: sans-serif;
   font-weight: normal;
   font-size: 20px;
   color: rgb(238, 243, 243);
   width: 100%;
-  line-height: 45px;
-  margin-top: 0px;
+  line-height: 30px;
+  margin-top: 16px;
   text-align: center;
 }
 
 /* form-order */
-.form-order .container form .order-fill .input-order {
+.input-order {
   position: relative;
   width: 80%;
   margin-bottom: 20px;
@@ -29,7 +35,7 @@
   display: block;
 }
 
-.form-order .container form .order-fill .input-order input {
+.input-order input {
   height: 50px;
   width: 100%;
   padding: 0 20px;
@@ -39,7 +45,7 @@
   border-radius: 10px;
 }
 
-.form-order .container form .order-fill .input-order span {
+.input-order span {
   position: absolute;
   top: 12px;
   left: 20px;
@@ -51,8 +57,8 @@
 .sendi {
   text-align: center;
 }
-.form-order .container form .order-fill .input-order input:focus ~ span,
-.form-order .container form .order-fill .input-order input:valid ~ span {
+.input-order input:focus ~ span,
+.input-order input:valid ~ span {
   top: -12px;
   left: 20px;
   font-size: 12px;
@@ -63,14 +69,14 @@
   border-radius: 5px;
 }
 
-.form-order .container form .order-fill .input-order input[type="submit"] {
+.input-order input[type="submit"] {
   background-color: #e63946;
   border: none;
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
-  width: 50%;
-  transition: 0.5;
+  width: 65%;
+  transition: width 0.5s ease;
   font-size: 12px;
   padding: 2px 5px;
   color: #fff;
@@ -79,22 +85,41 @@
   font-family: cursive;
 }
 
-.form-order
-  .container
-  form
-  .order-fill
-  .input-order
-  input[type="submit"]:hover {
+.input-order input[type="submit"]:hover {
   width: 100%;
   background-color: steelblue;
-  transition: 0.5s;
-  color: gold;
+  transition: width 0.5s ease-in-out, background-color 0.5s ease-in-out,
+    color 0.5s ease-in-out;
+  color: #f1faee;
 }
-
 /* setting form */
-.form-order .container form .order-fill {
+.order-fill {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
 /* akhir elemen order */
+
+/* responsive */
+@media screen and (max-width: 768px) {
+  .input-order {
+    width: 100%;
+  }
+
+  .input-order input[type="submit"] {
+    width: 75%;
+    transition: width 0.5s ease;
+  }
+
+  .input-order input[type="submit"]:hover {
+    width: 100%;
+    background-color: steelblue;
+    transition: width 0.5s ease-in-out, background-color 0.5s ease-in-out,
+      color 0.5s ease-in-out;
+    color: #f1faee;
+  }
+
+  .order-fill {
+    width: 100%;
+  }
+}

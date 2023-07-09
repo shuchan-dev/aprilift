@@ -21,6 +21,15 @@ interface ImageProps {
 }
 
 const components: MDXComponents = {
+  h1: ({ children }: ParagraphProps) => (
+    <h1 className={styles.title}>{children}</h1>
+  ),
+  h2: ({ children }: ParagraphProps) => (
+    <h2 className={styles.h2}>{children}</h2>
+  ),
+  h3: ({ children }: ParagraphProps) => (
+    <h3 className={styles.h3}>{children}</h3>
+  ),
   p: ({ children }: ParagraphProps) => (
     <p className={styles.paragraph}>{children}</p>
   ),
