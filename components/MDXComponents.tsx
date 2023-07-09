@@ -38,6 +38,12 @@ const components: MDXComponents = {
       {children}
     </a>
   ),
+  li: ({ children }: ParagraphProps) => (
+    <li className={styles.li}>{children}</li>
+  ),
+  ul: ({ children }: ParagraphProps) => (
+    <ul className={styles.ul}>{children}</ul>
+  ),
   img: ({ src, alt }: ImageProps) => (
     <Image
       src={src}

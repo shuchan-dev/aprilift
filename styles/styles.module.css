@@ -13,22 +13,59 @@
 }
 .h2 {
   font-size: 28px;
+  padding-bottom: 20px;
 }
 .h3 {
   font-size: 25px;
+  padding-bottom: 20px;
 }
 .paragraph {
   font-size: 20px;
-  line-height: 2.6;
-  margin-bottom: 16px;
+  line-height: 2.5;
+  margin-bottom: 50px !important ;
+}
+.li {
+  font-size: 20px;
+  line-height: 2.5;
 }
 
 .link {
   color: #0070f3;
   text-decoration: underline;
 }
+.ul {
+  margin-bottom: 50px !important ;
+}
 
 .image {
   max-width: 100%;
   margin-bottom: 8px !important;
+}
+
+@media (max-width: 600px) {
+  .title {
+    margin-top: 30px !important;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+    margin-bottom: 60px;
+  }
+
+  .h2 {
+    font-size: 22px;
+  }
+
+  .h3 {
+    font-size: 20px;
+  }
+
+  .paragraph {
+    font-size: 18px;
+    line-height: 2.4;
+    margin-bottom: 12px;
+  }
 }

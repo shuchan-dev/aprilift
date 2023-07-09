@@ -7,6 +7,7 @@ import Head from "next/head";
 
 const App = ({ Component, pageProps }: AppProps) => {
   const [queryClient] = React.useState(() => new QueryClient());
+
   return (
     <>
       <Head>
