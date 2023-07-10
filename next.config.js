@@ -11,6 +11,7 @@ const nextConfig = {
     EMAILJS_SERVICE_ID: "service_zwkzyau",
     EMAILJS_TEMPLATE_ID: "template_vkfiv0h",
   },
+  output: "export",
 
   ...withMDX({
     pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
