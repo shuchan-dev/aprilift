@@ -14,4 +14,4 @@ const Index: NextPage = () => {
 };
 
 export default Index;
-export const runtime = "edge";
+export const runtime = "experimental-edge";

@@ -14,4 +14,4 @@ function galeri() {
 }
 
 export default galeri;
-export const runtime = "edge";
+export const runtime = "experimental-edge";

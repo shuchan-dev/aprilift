@@ -12,4 +12,4 @@ export default function About() {
     </>
   );
 }
-export const runtime = "edge";
+export const runtime = "experimental-edge";
