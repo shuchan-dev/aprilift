@@ -37,11 +37,10 @@
     "typescript": "5.1.5"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.2.0",
     "@tanstack/react-query": "^4.29.19",
     "@tanstack/react-query-devtools": "^4.29.19",
     "eslint-config-prettier": "^8.8.0",
     "prettier": "^2.8.8",
-    "vercel": "^30.0.0"
+    "vercel": "^28.17.0"
   }
 }

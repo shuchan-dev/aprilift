@@ -59,5 +59,3 @@ export async function getStaticProps({ params }: any) {
     },
   };
 }
-
-export const runtime = "edge";
