@@ -14,3 +14,4 @@ const Index: NextPage = () => {
 };
 
 export default Index;
+export const runtime = "edge";

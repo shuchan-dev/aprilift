@@ -11,3 +11,4 @@ export default function Service() {
     </>
   );
 }
+export const runtime = "edge";
