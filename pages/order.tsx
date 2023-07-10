@@ -12,3 +12,4 @@ export default function order() {
     </>
   );
 }
+export const runtime = "edge";
