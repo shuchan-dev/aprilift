@@ -9,6 +9,8 @@ tags:
 
 # Lift Barang (Lift Cargo): Meningkatkan Efisiensi Operasional dan Proses Logistik
 
+![liftbarang](/liftbarang.jpeg)
+
 Lift Barang adalah solusi transportasi barang yang dirancang khusus untuk berbagai jenis industri. Kami menyediakan Lift Barang dengan kapasitas yang dapat disesuaikan sesuai dengan kebutuhan Anda. Desainnya dapat disesuaikan untuk memenuhi persyaratan lingkungan operasional yang berbeda. Dengan Lift Barang kami, Anda dapat meningkatkan efisiensi operasional dan mengoptimalkan proses logistik di perusahaan Anda.
 
 ## Keunggulan Lift Barang Kami

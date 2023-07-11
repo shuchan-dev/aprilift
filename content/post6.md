@@ -13,9 +13,13 @@ Kami adalah penyedia jasa maintenance lift yang terpercaya, dengan tim yang berp
 
 ## Layanan Maintenance Lift Terpercaya
 
+![service](/service.jpg)
+
 Tim kami yang berpengalaman siap memberikan layanan maintenance lift yang terpercaya. Kami mengerti betapa pentingnya menjaga kinerja optimal dan keandalan lift Anda. Melalui pemeriksaan rutin, perawatan berkala, dan perbaikan yang diperlukan, kami akan memastikan bahwa lift Anda berfungsi dengan baik dan aman digunakan. Layanan maintenance kami dilakukan dengan cepat, responsif, dan dilengkapi dengan standar keselamatan yang tinggi.
 
 ## Penjualan Spare Parts Lift Berkualitas Tinggi
+
+![spareparts](/spareparts.png)
 
 Kami juga menyediakan spare parts lift asli berkualitas tinggi untuk kebutuhan perbaikan dan penggantian komponen lift. Spare parts yang kami sediakan kompatibel dengan berbagai merek dan model lift. Dengan menggunakan spare parts asli, Anda dapat memastikan kecocokan dan kualitas terbaik untuk lift Anda. Spare parts yang tepat akan membantu meningkatkan kinerja lift Anda dan memperpanjang umur operasionalnya. Dapatkan suku cadang yang Anda butuhkan dengan mudah melalui layanan penjualan spare parts kami.
 
