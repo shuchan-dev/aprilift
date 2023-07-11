@@ -1,4 +1,11 @@
 /* Contact Container */
+.h111 {
+  color: #a8dadc;
+}
+
+.h11 {
+  color: #e63946;
+}
 
 .contactContainer {
   display: flex;
@@ -21,6 +28,7 @@
 .contactInfo p {
   margin: 0.5rem 0 1rem;
   font-size: 17px;
+  text-align: justify;
 }
 
 /* Address */

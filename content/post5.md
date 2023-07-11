@@ -9,6 +9,8 @@ tags:
 
 # Dumbwaiter (Lift Makanan): Meningkatkan Produktivitas dan Kenyamanan di Rumah atau Restoran Anda
 
+![dubwaiter](/dumbwaiter.png)
+
 Dumbwaiter, atau yang dikenal juga sebagai lift makanan, adalah solusi praktis dan efisien untuk mengangkut barang dalam skala rumah tangga atau restoran. Dengan teknologi terkini dan desain yang dapat diandalkan, kami menyediakan Dumbwaiter yang akan mempermudah proses pengangkutan barang Anda.
 
 ## Keunggulan Dumbwaiter Kami

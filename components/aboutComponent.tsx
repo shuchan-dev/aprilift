@@ -7,7 +7,10 @@ export default function AboutComponent() {
       <section className={styles.contact}>
         <div className={styles.contactContainer}>
           <div className={styles.contactInfo}>
-            <h1>Aprilift Mandiri</h1>
+            <h1>
+              <span className={styles.h11}>Aprilift</span>{" "}
+              <span className={styles.h111}>Mandiri</span>{" "}
+            </h1>
             <p>
               Aprilift mandiri berdiri pada tanggal 23 Maret 2012. Kami adalah
               suatu usaha yang bergerak di bidang prosuksi elevator, seperti :

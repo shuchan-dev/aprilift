@@ -49,8 +49,8 @@ const components: MDXComponents = {
       src={src}
       alt={alt}
       className={styles.image}
-      width={300}
-      height={300}
+      width={350}
+      height={500}
     />
   ),
 };

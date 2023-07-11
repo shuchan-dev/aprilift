@@ -14,4 +14,3 @@ function galeri() {
 }
 
 export default galeri;
-

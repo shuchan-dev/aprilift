@@ -7,23 +7,28 @@
 .deskripsi4 {
   font-size: 25px;
   font-weight: bold;
-  font-family: sans-serif;
-  color: #e63946;
   margin-top: 30px;
   text-align: center;
 }
-
-.kolom h6 {
-  font-family: sans-serif;
-  font-weight: normal;
-  font-size: 20px;
-  color: rgb(238, 243, 243);
-  width: 100%;
-  line-height: 30px;
-  margin-top: 16px;
-  text-align: center;
+.order {
+  font-size: 30px;
+  color: #e63946;
 }
 
+.kolom h6 {
+  font-weight: normal;
+  font-size: 20px;
+  color: #f1faee !important;
+  line-height: 30px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.kolom {
+  max-width: 600px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
 /* form-order */
 .input-order {
   position: relative;
@@ -129,5 +134,9 @@
 
   .order-fill {
     width: 100%;
+  }
+  .kolom {
+    margin-left: 0;
+    margin-right: 0;
   }
 }

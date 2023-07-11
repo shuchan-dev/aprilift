@@ -75,8 +75,8 @@ class OrderComponent extends React.Component<EmailFormProps, EmailFormState> {
     return (
       <>
         <main className={styles.container}>
-          <div className={`${styles.container} ${styles.deskripsi4}`}>
-            <p className={styles.deskripsi4}>ORDER</p>
+          <div className={`${styles.deskripsi4}`}>
+            <p className={styles.order}>ORDER</p>
 
             <div className={styles.kolom}>
               <h6>
@@ -114,7 +114,8 @@ class OrderComponent extends React.Component<EmailFormProps, EmailFormState> {
                   </div>
                   <div className={styles["input-order"]}>
                     <input
-                      type="tel"
+                      inputMode="numeric"
+                      pattern="[0-9]*"
                       required
                       value={this.state.telp}
                       onChange={this.handleChange}
