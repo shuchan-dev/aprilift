@@ -1,28 +1,47 @@
-import styles from "./header.module.css";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import logos from "../public/logo.png";
 import Image from "next/image";
 import Link from "next/link";
+import headerStyles from "./header.module.css";
 
 export default function Header() {
-  const { header, maxscreenxl, mxauto } = styles;
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const { header, maxscreenxl, mxauto, scroll } = headerStyles;
+
   return (
     <>
-      <header className={`${header}`}>
-        <div className={`${maxscreenxl} , ${mxauto}`}>
+      <header className={`${header} ${isScrolled ? scroll : ""}`}>
+        <div className={`${maxscreenxl} ${mxauto}`}>
           {/* <!-- logo --> */}
-          <div className={styles.logo}>
+          <div className={headerStyles.logo}>
             <Link href="/" passHref>
-              <Image src={logos} alt="Logo" className={styles.img} />
+              <Image src={logos} alt="Logo" className={headerStyles.img} />
             </Link>
           </div>
 
           {/* <!-- Menu --> */}
-          <div className={styles.navigation}>
-            <input type="checkbox" className={styles.toggleMenu} />
-            <div className={styles.hamburger}></div>
+          <div className={headerStyles.navigation}>
+            <input type="checkbox" className={headerStyles.toggleMenu} />
+            <div className={headerStyles.hamburger}></div>
 
-            <ul className={styles.menu}>
+            <ul className={headerStyles.menu}>
               <li>
                 <Link href="/" passHref>
                   Home

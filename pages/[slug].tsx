@@ -32,29 +32,57 @@ export async function getStaticPaths() {
   const postsDirectory = path.join(process.cwd(), "content");
   const filenames = fs.readdirSync(postsDirectory);
 
-  const paths = filenames.map((filename) => ({
-    params: {
-      slug: filename.replace(/\.md$/, ""),
-    },
-  }));
+  const paths = filenames.map((filename) => {
+    const fileExtension = path.extname(filename);
+
+    if (fileExtension === ".md" || fileExtension === ".mdx") {
+      return {
+        params: {
+          slug: filename.replace(fileExtension, ""),
+        },
+      };
+    }
+  });
 
   return {
-    paths,
+    paths: paths.filter(Boolean), // Filter out undefined values
     fallback: false,
   };
 }
 
 export async function getStaticProps({ params }: any) {
-  const postFilePath = path.join(process.cwd(), "content", `${params.slug}.md`);
-  const source = fs.readFileSync(postFilePath, "utf-8");
+  const postFilePathMDX = path.join(
+    process.cwd(),
+    "content",
+    `${params.slug}.mdx`
+  );
+  const postFilePathMD = path.join(
+    process.cwd(),
+    "content",
+    `${params.slug}.md`
+  );
+  const mdxSource = fs.existsSync(postFilePathMDX)
+    ? fs.readFileSync(postFilePathMDX, "utf-8")
+    : "";
 
-  const { content, data } = matter(source);
+  let content, data;
 
-  const mdxSource = await serialize(content);
+  if (mdxSource) {
+    const { content: mdxContent, data: mdxData } = matter(mdxSource);
+    content = mdxContent;
+    data = mdxData;
+  } else {
+    const mdSource = fs.readFileSync(postFilePathMD, "utf-8");
+    const { content: mdContent, data: mdData } = matter(mdSource);
+    content = mdContent;
+    data = mdData;
+  }
+
+  const mdxSerialized = await serialize(content);
 
   return {
     props: {
-      source: mdxSource,
+      source: mdxSerialized,
       frontMatter: data,
     },
   };

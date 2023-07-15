@@ -6,11 +6,6 @@
   position: relative;
   padding: 0 25px;
   transition: 0.3s;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  z-index: 1;
-  opacity: 0.96;
   height: 60px;
 }
 .mxauto {
@@ -19,8 +14,22 @@
 }
 
 .header {
+  border-top: 1px solid #fa2424;
   background: #a8dadc;
-  border-top: 4px #e63946 solid;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+}
+
+.header.scroll {
+  opacity: 0.78;
+}
+
+.header.scroll .menu li a {
+  color: #891e26;
 }
 .logo .img {
   display: block;
@@ -66,7 +75,7 @@
   position: relative;
   width: 30px;
   height: 4px;
-  background: #363434;
+  background: #891e26;
   border-radius: 10px;
   cursor: pointer;
   z-index: 2;
@@ -79,7 +88,7 @@
   position: absolute;
   height: 4px;
   right: 0;
-  background: #363434;
+  background: #891e26;
   border-radius: 10px;
   transition: 0.3s;
 }

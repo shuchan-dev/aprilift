@@ -9,7 +9,7 @@ tags:
 
 # Home Lift : Aksesibilitas Vertikal yang Nyaman dan Aman di dalam Rumah Anda
 
-![HomeLift](/HomeLift.png)
+![HomeLift](/home2.jpg)
 
 Home Lift adalah solusi yang dirancang khusus untuk memenuhi kebutuhan aksesibilitas vertikal di dalam rumah Anda. Dengan menggunakan Home Lift kami, Anda dapat menikmati aksesibilitas yang nyaman dan aman, tanpa harus menghadapi tangga atau kendala mobilitas di dalam rumah Anda. Desain elegan dan teknologi canggih membuat Home Lift kami menjadi solusi sempurna untuk meningkatkan nilai dan kenyamanan hunian Anda.
 
