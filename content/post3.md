@@ -9,8 +9,6 @@ tags:
 
 # Hospital Lift : Keamanan dan Kenyamanan dalam Lingkungan Rumah Sakit
 
-![Hospital](/Bedlift.png)
-
 Hospital Lift merupakan solusi yang dirancang khusus untuk memenuhi kebutuhan transportasi di lingkungan rumah sakit. Kami menyediakan Hospital Lift yang memenuhi standar keamanan dan kenyamanan yang khusus untuk lingkungan rumah sakit. Dirancang dengan cermat, Hospital Lift kami dapat mengakomodasi transportasi pasien, perawat, dan peralatan medis dengan efisiensi dan kehandalan tinggi. Keandalan Hospital Lift kami menjadi faktor penting dalam mendukung operasional rumah sakit.
 
 ## Keunggulan Hospital Lift Kami
@@ -32,6 +30,8 @@ Hospital Lift kami didukung oleh teknologi dan sistem yang handal, dirancang unt
 ### 4. Desain yang Sesuai dengan Lingkungan Rumah Sakit
 
 Hospital Lift kami memiliki desain yang sesuai dengan lingkungan rumah sakit. Kami menyediakan pilihan desain dan finishing yang cocok untuk menciptakan kesesuaian dengan interior rumah sakit. Hospital Lift kami akan menjadi bagian yang harmonis dalam lingkungan rumah sakit Anda, meningkatkan efisiensi dan keselarasan keseluruhan.
+
+![Hospital](/Bedlift.png)
 
 ## Kesimpulan
 

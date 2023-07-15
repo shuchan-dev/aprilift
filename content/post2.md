@@ -7,15 +7,15 @@ tags:
   - Markdown
 ---
 
-# Lift Passenger: Perjalanan yang Aman dan Nyaman dalam Berbagai Jenis Bangunan
-
-![LiftPassenger](/LiftPassenger2.png)
+# Lift Passenger : Perjalanan yang Aman dan Nyaman dalam Berbagai Jenis Bangunan
 
 Lift Passenger adalah solusi transportasi vertikal yang dirancang khusus untuk memenuhi kebutuhan transportasi manusia dalam berbagai jenis bangunan. Kami menyediakan Lift Passenger dengan kapasitas yang bervariasi dan dilengkapi dengan fitur keselamatan yang canggih. Dengan Lift Passenger kami, pengguna dapat merasakan perjalanan yang aman dan nyaman dalam bangunan yang mereka tuju.
 
 ## Keunggulan Lift Passenger Kami
 
-Lift Passenger yang kami tawarkan memiliki beberapa keunggulan yang akan memberikan pengalaman perjalanan yang unggul bagi pengguna:
+Lift Passenger yang kami tawarkan memiliki beberapa keunggulan yang akan memberikan pengalaman perjalanan yang unggul bagi pengguna :
+
+![LiftPassenger](/lift9.jpeg)
 
 ### 1. Kapasitas yang Bervariasi
 
