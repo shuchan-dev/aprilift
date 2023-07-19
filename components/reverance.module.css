@@ -1,0 +1,28 @@
+.container {
+  max-width: 1200px;
+  padding: 20px 0;
+  margin: 0 auto !important;
+}
+.heading {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.myTitle {
+  background: #6d161c !important;
+  color: #dbfeff !important;
+}
+.central {
+  background-color: #ff0000;
+  pointer-events: none;
+}
+.active {
+  background: none !important;
+  border: none !important;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 2px 0;
+  }
+}

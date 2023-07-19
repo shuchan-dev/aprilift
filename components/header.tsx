@@ -58,6 +58,11 @@ export default function Header() {
                 </Link>
               </li>
               <li>
+                <Link href="./referensi" passHref>
+                  Referensi
+                </Link>
+              </li>
+              <li>
                 <Link href="./about" passHref>
                   Tentang Kami
                 </Link>
