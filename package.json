@@ -9,7 +9,7 @@
     "lint": "next lint",
     "format": "prettier --write --ignore-path=.gitignore .",
     "format:check": "prettier --check --ignore-path=.gitignore .",
-    "deploy:vercel": "vercel"
+    "deploy:vercel": "vercel --prod"
   },
   "dependencies": {
     "@mdx-js/loader": "^2.3.0",
