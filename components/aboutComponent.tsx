@@ -13,7 +13,7 @@ export default function AboutComponent() {
             </h1>
             <p>
               Aprilift mandiri berdiri pada tanggal 23 Maret 2012. Kami adalah
-              suatu usaha yang bergerak di bidang prosuksi elevator, seperti :
+              suatu usaha yang bergerak di bidang produksi elevator, seperti :
               Dumbwaiter (Lift Makanan), Lift Barang (Lift Cargo), dan Lift
               Passenger . Selain itu, kami juga melayani jasa maintenance dan
               penjualan spare parts lift. Jika anda memerlukan produk dan jasa

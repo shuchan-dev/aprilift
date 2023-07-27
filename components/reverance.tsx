@@ -6,7 +6,7 @@ function Reverance() {
   return (
     <>
       <main className={styles.container}>
-        <h1 className={styles.heading}>Referensi dan Perjanalan kami</h1>
+        <h1 className={styles.heading}>Referensi Pekerjaan</h1>
         <ReveranceCard />
       </main>
     </>

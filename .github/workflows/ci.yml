@@ -1,33 +1,37 @@
-name: "CI"
+name: CI
 
-on: [pull_request]
+on:
+  pull_request:
+    branches:
+      - main
+      - dev
 
 jobs:
   build:
-    name: "Build, lint,"
+    name: Build and lint
 
     runs-on: ubuntu-latest
 
     steps:
-      - name: "Checkout repo"
+      - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: "Set up latest Node LTS"
+      - name: Set up latest Node LTS
         uses: actions/setup-node@v2
         with:
           node-version: "lts/*"
 
-      - name: "Install pnpm"
+      - name: Install pnpm
         run: npm install -g pnpm
 
-      - name: "Install dependencies"
+      - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: "Check format"
+      - name: Check format
         run: pnpm run format:check
 
-      - name: "Build"
+      - name: Build
         run: pnpm run build
 
-      - name: "Lint"
+      - name: Lint
         run: pnpm run lint

@@ -21,8 +21,10 @@
   background: none !important;
   border: none !important;
 }
+
 @media (max-width: 768px) {
   .container {
     padding: 2px 0;
+    padding-bottom: 20px !important;
   }
 }
