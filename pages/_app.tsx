@@ -44,6 +44,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         <link rel="canonical" href={metaData.canonicalUrl} />
         {/* Robots Meta Tag */}
         <meta name="robots" content={metaData.robotsMeta} />
+        <meta name="google-site-verification" content="EehtEWWpvTImaeCDXzbNL9VaosonuiL_IHMBs2_Ufds" />
       </Head>
       <QueryClientProvider client={queryClient}>
         <ReactQueryDevtools />
