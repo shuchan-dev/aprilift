@@ -1,6 +1,6 @@
 import { AppProps } from "next/app";
 import "../styles/global-styles.css";
-import React from "react";
+import React, { useEffect } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import Head from "next/head";
@@ -20,6 +20,21 @@ const App = ({ Component, pageProps }: AppProps) => {
     canonicalUrl: "https://aprilift.vercel.app/",
     robotsMeta: "index, follow",
   };
+
+  useEffect(() => {
+    // Kode Google Tag Manager
+    const gtmScript = `
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id=G-Y6XKB42FBQ'+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','G-Y6XKB42FBQ');
+    `;
+
+    const script = document.createElement("script");
+    script.innerHTML = gtmScript;
+    document.head.appendChild(script);
+  }, []);
 
   return (
     <>
@@ -44,16 +59,10 @@ const App = ({ Component, pageProps }: AppProps) => {
         <link rel="canonical" href={metaData.canonicalUrl} />
         {/* Robots Meta Tag */}
         <meta name="robots" content={metaData.robotsMeta} />
-        <meta name="google-site-verification" content="EehtEWWpvTImaeCDXzbNL9VaosonuiL_IHMBs2_Ufds" />
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6XKB42FBQ"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-  
-          gtag('config', 'G-Y6XKB42FBQ');
-        </script>
+        <meta
+          name="google-site-verification"
+          content="EehtEWWpvTImaeCDXzbNL9VaosonuiL_IHMBs2_Ufds"
+        />
       </Head>
       <QueryClientProvider client={queryClient}>
         <ReactQueryDevtools />
