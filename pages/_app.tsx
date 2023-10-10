@@ -45,6 +45,15 @@ const App = ({ Component, pageProps }: AppProps) => {
         {/* Robots Meta Tag */}
         <meta name="robots" content={metaData.robotsMeta} />
         <meta name="google-site-verification" content="EehtEWWpvTImaeCDXzbNL9VaosonuiL_IHMBs2_Ufds" />
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6XKB42FBQ"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+  
+          gtag('config', 'G-Y6XKB42FBQ');
+        </script>
       </Head>
       <QueryClientProvider client={queryClient}>
         <ReactQueryDevtools />
