@@ -11,7 +11,7 @@ const App = ({ Component, pageProps }: AppProps) => {
 
   const metaData = {
     title:
-      "Aprilift Mandiri || Solusi Elevator: Dumbwaiter, Lift Barang, Lift Penumpang, dan Layanan Maintenance",
+      "PT.Aprilift Mandiri || Solusi Elevator: Dumbwaiter, Lift Barang, Lift Penumpang, dan Layanan Maintenance",
     description:
       "Kami adalah usaha yang bergerak di bidang produksi elevator, termasuk Dumbwaiter (Lift Makanan), Lift Barang (Lift Cargo), dan Lift Penumpang. Selain itu, kami menyediakan jasa maintenance dan penjualan spare parts lift. Percayakan pada kami untuk menyediakan produk dan jasa yang Anda butuhkan dalam bidang elevator.",
     image: "/home.png",

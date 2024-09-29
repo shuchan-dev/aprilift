@@ -2,6 +2,7 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Link from "next/link";
 import style from "@/styles/404.module.css";
+import React from "react";
 
 export default function Custom404() {
   const { errorcontainer, screenreadertext, linkcontainer, morelink, span, a } =

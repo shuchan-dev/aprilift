@@ -26,7 +26,7 @@ export default function Mainhero() {
             <div className={`${heroRight}`}>
               <div className={`${heroCard}`}>
                 <h1 className={`${h1}`}>
-                  <span className={`${h11}`}>Aprilift</span> Mandiri
+                  PT.<span className={`${h11}`}> Aprilift</span> Mandiri
                 </h1>
                 <p className={`${p}`}>
                   Kami adalah suatu usaha yang bergerak di bidang prosuksi

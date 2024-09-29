@@ -26,7 +26,7 @@ export default function Footer() {
         <div className={`${container}`}>
           <div className={`${consume}`} style={customStyles}>
             <div className={`${respo}`}>
-              <h1 className={`${text}`}>Aprilift Mandiri</h1>
+              <h1 className={`${text}`}>PT.Aprilift Mandiri</h1>
               <p className={`${littleText}`}>
                 Jl. Bangun Nusa No. 41 Rt. 009 / Rw. 003, Cengkareng Timur,{" "}
                 <br />
@@ -42,8 +42,8 @@ export default function Footer() {
           </div>
         </div>
         <p className={`${copyright}`}>
-          &copy;2023
-          <span className={`${link}`}> Aprilift Mandiri</span>
+          &copy;2024
+          <span className={`${link}`}> PT.Aprilift Mandiri</span>
         </p>
         <p className={`${copyright}`}>
           {" "}
